@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("com.miglayout:miglayout-swing:5.0")
+    implementation("net.sevecek:sevecek-net-utils:0.9.1")
+}
+
+application {
+    mainClass = "cz.czechitas.java.lekce02.HlavniProgram"
+}
+

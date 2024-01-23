@@ -29,6 +29,7 @@ public class Turtle {
   private BufferedImage turtleSprite;
   private JLabel turtleVisualComponent;
 
+
   public Turtle() {
     try {
       board = Board.getInstance(Thread.currentThread());

@@ -108,6 +108,10 @@ public class Turtle {
     turnRight(-byAngle);
   }
 
+  public void turnUp(){
+    turnRight(-angle);
+  }
+
   public void move(double pixels) {
     testPause();
     double newX = x + Math.cos((angle - 90.0) * DEGREES_TO_RADIAN_RATIO) * pixels;

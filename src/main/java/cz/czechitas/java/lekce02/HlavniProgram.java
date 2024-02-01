@@ -90,7 +90,7 @@ public class HlavniProgram {
 
         ocasek();
 
-        zofka.turnUp();   //todo přidala jsem si funkci na vyresetování rotace Žofky :-)
+        zofka.turnUp();   //pozn. přidala jsem si funkci na vyresetování rotace Žofky :-)
     }
 
     public void ocasek() {
